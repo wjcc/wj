@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头部</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="jq/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="inner clear">
+        <div class="logo fl">
+            <a href="index.html">
+                <img src="images/lloo.png" alt="">
+            </a>
+        </div>
+        <ul class="nav fr clear">
+            <li>
+                <a href="index.html">首页</a>
+            </li>
+            <li>
+                <a href="">
+                    <span>翡翠学院</span>
+                    <i class="jl"></i>
+                </a>
+                <div class="xia">
+                    <a href="">
+                        学习主页
+                    </a>
+                    <a href="">
+                        小鸟掌学概述
+                    </a>
+                    <a href="">
+                        对企业的价值
+                    </a>
+                    <a href="">
+                        小鸟掌云
+                    </a>
+                    <a href="">
+                        微课联盟
+                    </a>
+                    <a href="">
+                        App下载
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="">卓新动态</a>
+            </li>
+            <li>
+                <a href="">
+                    <span>企业文化</span>
+                    <i class="jl"></i>
+                </a>
+                <div class="xia">
+                    <a href="">
+                        公司理念
+                    </a>
+                    <a href="">
+                        公司文化
+                    </a>
+                    <a href="">
+                        公司氛围
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="">
+                    <span>人力资源</span>
+                    <i class="jl"></i>
+                </a>
+                <div class="xia">
+                    <a href="">
+                        人才理念
+                    </a>
+                    <a href="">
+                        团队介绍
+                    </a>
+                    <a href="">
+                        招聘信息
+
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="">
+                    联系我们
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+<script>
+    $(".nav .xia a").hover(function () {
+        $(this).append("<span>&gt;</span>");
+    }, function () {
+        $(this).find("span").remove();
+    });
+    $(".nav li").hover(function () {
+        $(this).find(".xia").slideDown(200);
+    }, function () {
+        $(this).find(".xia").slideUp(200).stop(false,true);
+    })
+</script>
+</body>
+</html>

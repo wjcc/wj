@@ -1,0 +1,69 @@
+footer{
+    width: 100%;
+    height: auto;
+}
+.map{
+    width: 100%;
+    height: 33px;
+    margin-bottom: -6px;
+}
+.map img{
+    width: 100%;
+    height: auto;
+}
+.bottom{
+    width: 100%;
+    height: 348px;
+    background: url("../images/yinyue_bg.jpg");
+}
+.foot{
+    width: 1100px;
+    margin: 0 auto;
+    height: 329px;
+}
+.music{
+    padding: 116px 0 0 276px;
+    height: 67px;
+}
+.music span{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    margin-right: 26px;
+}
+.span1{
+    background: url(../images/yinyue_duo.png) no-repeat;
+}
+.span2{
+    background: url(../images/yinyue_lai.png) no-repeat;
+}
+.span3{
+    background: url(../images/yinyue_mi.png) no-repeat;
+}
+.span4{
+    background: url(../images/yinyue_fa.png) no-repeat;
+}
+.span5{
+    background: url(../images/yinyue_suo.png) no-repeat;
+}
+.span6{
+    background: url(../images/yinyue_la.png) no-repeat;
+}
+.span7 {
+    background: url(../images/yinyue_xi.png) no-repeat;
+}
+.music span:hover{
+    background-position: 0 -57px;
+}
+.text{
+    border-top: 2px dashed #9890a2;
+    text-align: center;
+    line-height: 65px;
+    margin-top: 79px;
+    color: #fff;
+    cursor: pointer;
+}
+.text:hover {
+    color: #6CF;
+}
